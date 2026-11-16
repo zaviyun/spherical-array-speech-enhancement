@@ -1,0 +1,42 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.autosave
+slprj/
+sccprj/
+*.slxc
+*.mlappinstall
+*.mltx
+*.mlx.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Large / local experiment artifacts (keep repo lean)
+**/data/
+**/drv/
+**/regul*/
+**/*_out/
+*.rar
+*.zip
+*.7z
+*.tgz
+
+# Keep intentional sample media tracked under 05_results/ and rir_samples/
+!05_results/**/*.wav
+!00_simulation/rir_samples/**/*.wav
+!00_simulation/rir_samples/**/*.mat

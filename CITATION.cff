@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "Spherical-Array Speech Enhancement — Companion Code"
+type: software
+authors:
+  - family-names: Aslanzadeh
+    given-names: Amin
+    email: Amin.Aslanzadeh.M@gmail.com
+  - family-names: Kanani
+    given-names: Maedeh
+abstract: >-
+  Companion MATLAB/Python code for speech enhancement with a spherical
+  microphone array of variable virtual-microphone density in noisy
+  reverberant rooms, including baselines, ablations, metrics, and example audio.
+keywords:
+  - spherical microphone array
+  - speech enhancement
+  - beamforming
+  - WPE
+  - reverberation
+  - human-machine interaction
+license: MIT
+repository-code: "https://github.com/zaviyun/spherical-array-speech-enhancement"
+preferred-citation:
+  type: article
+  title: "Speech Enhancement in Human-Machine Interaction in Noisy Reverberant Environments Using a Spherical Array with a Variable Number of Microphones"
+  authors:
+    - family-names: Aslanzadeh
+      given-names: Amin
+    - family-names: Kanani
+      given-names: Maedeh
+  journal: "Multimedia Tools and Applications"
+  year: 2026
+  notes: "Update year, volume, pages, and DOI after publication."
