@@ -1,7 +1,6 @@
 # Paper ↔ Code Map
 
-Manuscript: *Speech Enhancement in Human–Machine Interaction in Noisy Reverberant Environments Using a Spherical Array with a Variable Number of Microphones*  
-Target venue: *Multimedia Tools and Applications*
+Manuscript: *Speech Enhancement in Human–Machine Interaction in Noisy Reverberant Environments Using a Spherical Array with a Variable Number of Microphones*
 
 This document is the **authoritative index** for reviewers and users who need to know which script corresponds to which paper condition. Prefer the **Primary script** column when reproducing Tables 2–3.
 
@@ -159,13 +158,13 @@ The items below are planned improvements for this companion repository. Checked 
 - [ ] Add a minimal config / relative-path convention for dataset and output folders
 - [ ] Rebuild SMIR MEX binaries from the included `.cpp` sources on a clean machine and document the tested MATLAB version
 - [ ] Add a short end-to-end demo recipe (one utterance, one radius, Proposed method)
-- [ ] Freeze the Data Availability URL / DOI text after journal publication
+- [ ] Freeze the Data Availability URL / DOI text after paper publication
 
 ---
 
-## 8. Data Availability blurb (for the manuscript)
+## 8. Data Availability blurb (draft)
 
-You may adapt the following for the journal:
+You may adapt the following later for the manuscript:
 
 > The MATLAB scripts and example audio samples accompanying this article are available at:  
 > https://github.com/zaviyun/spherical-array-speech-enhancement  

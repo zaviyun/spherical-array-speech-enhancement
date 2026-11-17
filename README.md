@@ -2,8 +2,7 @@
 
 Companion code for the manuscript:
 
-> **Speech Enhancement in Human–Machine Interaction in Noisy Reverberant Environments Using a Spherical Array with a Variable Number of Microphones**  
-> Submitted to *Multimedia Tools and Applications* (Springer)
+> **Speech Enhancement in Human–Machine Interaction in Noisy Reverberant Environments Using a Spherical Array with a Variable Number of Microphones**
 
 This repository provides the **simulation setup**, **method scripts** aligned with the paper tables, **objective metrics**, and **example audio samples** used in the experimental evaluation.
 
@@ -178,19 +177,18 @@ Canonical per-radius scripts, ring counts, and regularization notes are document
 
 ## Citation
 
-If you use this code, please cite the paper (update DOI / pages after publication):
+Please cite this repository for now. A formal paper citation (venue, year, DOI) will be added after publication.
 
 ```bibtex
-@article{aslanzadeh202Xspherical,
-  title   = {Speech Enhancement in Human--Machine Interaction in Noisy Reverberant Environments Using a Spherical Array with a Variable Number of Microphones},
+@software{aslanzadeh_spherical_array_speech_enhancement,
+  title   = {Spherical-Array Speech Enhancement --- Companion Code},
   author  = {Aslanzadeh, Amin and Kanani, Maedeh},
-  journal = {Multimedia Tools and Applications},
-  year    = {202X},
-  note    = {Companion code: https://github.com/zaviyun/spherical-array-speech-enhancement}
+  url     = {https://github.com/zaviyun/spherical-array-speech-enhancement},
+  note    = {Companion code for: Speech Enhancement in Human--Machine Interaction in Noisy Reverberant Environments Using a Spherical Array with a Variable Number of Microphones}
 }
 ```
 
-A machine-readable citation is also provided in [`CITATION.cff`](CITATION.cff).
+See also [`CITATION.cff`](CITATION.cff).
 
 ---
 
