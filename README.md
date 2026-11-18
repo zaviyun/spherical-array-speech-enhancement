@@ -36,10 +36,41 @@ flowchart LR
 
 ---
 
+## Visual demo
+
+A compact showcase of the geometry and beamforming behavior.  
+**Full gallery** (all GIFs, method comparisons, outlook, audio links): **[docs/demo.md](docs/demo.md)**  
+**Where to drop media files:** **[docs/COPY_GUIDE.md](docs/COPY_GUIDE.md)**
+
+<p align="center">
+  <img src="docs/figures/01_scenario/scenario_room_array_source.png" alt="Experimental scenario" width="720">
+</p>
+<p align="center"><sub>Experimental scenario — talker / source and spherical array in a reverberant room.</sub></p>
+
+<p align="center">
+  <img src="docs/figures/02_array_geometry/physical_32mics_R4v2.gif" alt="32-mic spherical array" width="360">
+  &nbsp;&nbsp;
+  <img src="docs/figures/05_beampattern_methods/Proposed_3d_R4v2.gif" alt="Proposed 3D beam pattern" width="360">
+</p>
+<p align="center"><sub>Left: 32 physical microphones (R = 4.2 cm). Right: Proposed method beam pattern (0–4000 Hz).</sub></p>
+
+| Listen (R = 4.2 cm) | Before | After |
+|---|---|---|
+| **Proposed** | [before.wav](05_results/Proposed/radius_4_2cm/before.wav) | [after.wav](05_results/Proposed/radius_4_2cm/after.wav) |
+| USMA-WPE-BF | [before.wav](05_results/USMA_WPE_BF/radius_4_2cm/before.wav) | [after.wav](05_results/USMA_WPE_BF/radius_4_2cm/after.wav) |
+
+> Images appear after you copy the media files into `docs/figures/` (see the copy guide). Until then, GitHub may show broken-image icons.
+
+---
+
 ## Repository layout
 
 ```text
 spherical-array-speech-enhancement/
+├── docs/                   # Visual gallery + media copy guide
+│   ├── demo.md             # Full figure / GIF / audio gallery
+│   ├── COPY_GUIDE.md       # Exact filenames for each asset
+│   └── figures/            # Scenario, geometry, beam-pattern GIFs
 ├── 00_simulation/          # SMIR RIR generation + dataset construction
 │   ├── smir_generator/     # Habets SMIR + project configuration
 │   ├── dataset_generation/ # RIR crop, convolution, AWGN @ 10 dB SNR
