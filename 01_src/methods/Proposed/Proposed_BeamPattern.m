@@ -226,16 +226,16 @@ for h = 1:length(w)
     dw = exp(-1i * w(h) * Tn);
     W(:,h) = (inv(psCoher{h,1} + Regul * eye(nRing)) * dw) / (dw' * inv(psCoher{h,1} + Regul * eye(nRing)) * dw);
 end
-%% Calculating CA2LA BFnet Weights
+%% Calculating Proposed method weights
 nMics = length(selectMics) * nMicOnRing;
 micPose = zeros(nMics,3);
 
 for g = 1:nRing
     micPose(nMicOnRing * (g-1) + 1 : nMicOnRing * (g-1) + nMicOnRing,:) = VMicOnRingPose{selectMics(g),1};
 end
-CA2LA_Weight = repelem(W, nMicOnRing, 1);
+Proposed_Weight = repelem(W, nMicOnRing, 1);
 clear W;
-W = (1/8) * CA2LA_Weight;
+W = (1/8) * Proposed_Weight;
 
 
 %% Calculate strVec for WNG metric
@@ -252,7 +252,7 @@ for h = 1:length(w)
 end
 
 
-%% Calculateing pseudo coherence matrix for CA2LA BFnet
+%% Calculating pseudo coherence matrix for the Proposed method
 
 psCoher_CALA(1:length(w) ,1) = {ones(nMics,nMics)}; % All the mics data cell storage
 for bin = 1:length(w)
@@ -652,8 +652,8 @@ if Start_WNG == 1
 
     end
     plot(freq_temp_Mic(5:257),WNG(5:257))
-    WNG_CA2LABFnet_Up32_R_0_1 = WNG;
-    save('WNG_CA2LABFnet_Up32_R_0_1.mat', 'WNG_CA2LABFnet_Up32_R_0_1');
+    WNG_Proposed_Up32_R_0_1 = WNG;
+    save('WNG_Proposed_Up32_R_0_1.mat', 'WNG_Proposed_Up32_R_0_1');
 end
 
 %% DF plotting
@@ -671,8 +671,8 @@ if Start_DF == 1
     end
     plot(freq_temp_Mic(1:257),DF(1:257))
 
-    DF_CA2LABFnetUp16_10Ring = DF;
-    save('DF_CA2LABFnetUp16_10Ring.mat', 'DF_CA2LABFnetUp16_10Ring');
+    DF_Proposed_Up16_10Ring = DF;
+    save('DF_Proposed_Up16_10Ring.mat', 'DF_Proposed_Up16_10Ring');
     % save('freq_temp_Mic_up32.mat', 'freq_temp_Mic');
 end
 

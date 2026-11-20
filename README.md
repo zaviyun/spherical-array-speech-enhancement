@@ -12,7 +12,7 @@ This repository provides the **simulation setup**, **method scripts** aligned wi
 
 ## Overview
 
-The proposed pipeline (**CA2LA-BFnet / Proposed**) enhances speech captured by a 32-microphone open spherical array in noisy reverberant rooms. It combines:
+The **Proposed** pipeline enhances speech captured by a 32-microphone open spherical array in noisy reverberant rooms. It combines:
 
 1. Spherical-harmonic synthesis of **virtual microphones on parallel rings**
 2. Per-ring **Delay-and-Sum** (directional virtual mics / MIMO layer)

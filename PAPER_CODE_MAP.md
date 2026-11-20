@@ -27,7 +27,7 @@ Paths are relative to the repository root.
 
 ---
 
-## 2. Proposed pipeline stages (Fig. 5 / CA2LA-BFnet)
+## 2. Proposed pipeline stages (Fig. 5)
 
 | Stage | Operation | Typical code location |
 |---|---|---|
@@ -124,7 +124,7 @@ These samples support listening tests / demos. **Reported table numbers come fro
 | FWSegSNR | Secondary | `03_metrics/speech_quality/FWSegSNR/run_fwseg_evaluation.m` |
 | CD | Secondary | `03_metrics/speech_quality/CD/run_cd_evaluation.m` |
 | SRMR | Secondary | `03_metrics/speech_quality/SRMR/run_srmr_evaluation.m` |
-| Beam pattern / DF / WNG | Array analysis (Figs. related to Sec. 2.2.3) | `03_metrics/array_performance/` and `01_src/methods/Proposed/CA2LABFnet_BeamPattern.m` |
+| Beam pattern / DF / WNG | Array analysis (Figs. related to Sec. 2.2.3) | `03_metrics/array_performance/Proposed_BeamPattern.m` and `01_src/methods/Proposed/Proposed_BeamPattern.m` |
 
 Lab-era batch runners (optional): `03_metrics/speech_quality/_lab_batch_runners/`.
 
