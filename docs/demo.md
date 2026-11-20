@@ -121,14 +121,36 @@ Beam patterns for selected paper conditions (**R = 4.2 cm**, **0 → 4000 Hz**).
 
 ## 6. Listening examples
 
-Qualitative `before` / `after` examples (not a substitute for the paper tables):
+Qualitative `before` / `after` examples (not a substitute for the paper tables).  
+Each clip has an inline player plus a download link.
 
-| Method | R = 4.2 cm | R = 10 cm |
+### Proposed
+
+| | R = 4.2 cm | R = 10 cm |
 |---|---|---|
-| Proposed | [before](../05_results/Proposed/radius_4_2cm/before.wav) · [after](../05_results/Proposed/radius_4_2cm/after.wav) | [before](../05_results/Proposed/radius_10cm/before.wav) · [after](../05_results/Proposed/radius_10cm/after.wav) |
-| USMA-WPE-BF | [before](../05_results/USMA_WPE_BF/radius_4_2cm/before.wav) · [after](../05_results/USMA_WPE_BF/radius_4_2cm/after.wav) | [before](../05_results/USMA_WPE_BF/radius_10cm/before.wav) · [after](../05_results/USMA_WPE_BF/radius_10cm/after.wav) |
-| USMA-SD | [before](../05_results/USMA_SD/radius_4_2cm/before.wav) · [after](../05_results/USMA_SD/radius_4_2cm/after.wav) | [before](../05_results/USMA_SD/radius_10cm/before.wav) · [after](../05_results/USMA_SD/radius_10cm/after.wav) |
-| USMA-DS | [before](../05_results/USMA_DS/radius_4_2cm/before.wav) · [after](../05_results/USMA_DS/radius_4_2cm/after.wav) | [before](../05_results/USMA_DS/radius_10cm/before.wav) · [after](../05_results/USMA_DS/radius_10cm/after.wav) |
+| **Before** | <audio controls preload="none" src="../05_results/Proposed/radius_4_2cm/before.wav"></audio><br>[download](../05_results/Proposed/radius_4_2cm/before.wav) | <audio controls preload="none" src="../05_results/Proposed/radius_10cm/before.wav"></audio><br>[download](../05_results/Proposed/radius_10cm/before.wav) |
+| **After** | <audio controls preload="none" src="../05_results/Proposed/radius_4_2cm/after.wav"></audio><br>[download](../05_results/Proposed/radius_4_2cm/after.wav) | <audio controls preload="none" src="../05_results/Proposed/radius_10cm/after.wav"></audio><br>[download](../05_results/Proposed/radius_10cm/after.wav) |
+
+### USMA-WPE-BF
+
+| | R = 4.2 cm | R = 10 cm |
+|---|---|---|
+| **Before** | <audio controls preload="none" src="../05_results/USMA_WPE_BF/radius_4_2cm/before.wav"></audio><br>[download](../05_results/USMA_WPE_BF/radius_4_2cm/before.wav) | <audio controls preload="none" src="../05_results/USMA_WPE_BF/radius_10cm/before.wav"></audio><br>[download](../05_results/USMA_WPE_BF/radius_10cm/before.wav) |
+| **After** | <audio controls preload="none" src="../05_results/USMA_WPE_BF/radius_4_2cm/after.wav"></audio><br>[download](../05_results/USMA_WPE_BF/radius_4_2cm/after.wav) | <audio controls preload="none" src="../05_results/USMA_WPE_BF/radius_10cm/after.wav"></audio><br>[download](../05_results/USMA_WPE_BF/radius_10cm/after.wav) |
+
+### USMA-SD
+
+| | R = 4.2 cm | R = 10 cm |
+|---|---|---|
+| **Before** | <audio controls preload="none" src="../05_results/USMA_SD/radius_4_2cm/before.wav"></audio><br>[download](../05_results/USMA_SD/radius_4_2cm/before.wav) | <audio controls preload="none" src="../05_results/USMA_SD/radius_10cm/before.wav"></audio><br>[download](../05_results/USMA_SD/radius_10cm/before.wav) |
+| **After** | <audio controls preload="none" src="../05_results/USMA_SD/radius_4_2cm/after.wav"></audio><br>[download](../05_results/USMA_SD/radius_4_2cm/after.wav) | <audio controls preload="none" src="../05_results/USMA_SD/radius_10cm/after.wav"></audio><br>[download](../05_results/USMA_SD/radius_10cm/after.wav) |
+
+### USMA-DS
+
+| | R = 4.2 cm | R = 10 cm |
+|---|---|---|
+| **Before** | <audio controls preload="none" src="../05_results/USMA_DS/radius_4_2cm/before.wav"></audio><br>[download](../05_results/USMA_DS/radius_4_2cm/before.wav) | <audio controls preload="none" src="../05_results/USMA_DS/radius_10cm/before.wav"></audio><br>[download](../05_results/USMA_DS/radius_10cm/before.wav) |
+| **After** | <audio controls preload="none" src="../05_results/USMA_DS/radius_4_2cm/after.wav"></audio><br>[download](../05_results/USMA_DS/radius_4_2cm/after.wav) | <audio controls preload="none" src="../05_results/USMA_DS/radius_10cm/after.wav"></audio><br>[download](../05_results/USMA_DS/radius_10cm/after.wav) |
 
 More conditions: [`../05_results/`](../05_results/).
 

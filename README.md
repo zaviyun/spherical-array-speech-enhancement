@@ -54,12 +54,22 @@ A compact showcase of the geometry and beamforming behavior.
 </p>
 <p align="center"><sub>Left: 32 physical microphones (R = 4.2 cm). Right: Proposed method beam pattern (0–4000 Hz).</sub></p>
 
-| Listen (R = 4.2 cm) | Before | After |
-|---|---|---|
-| **Proposed** | [before.wav](05_results/Proposed/radius_4_2cm/before.wav) | [after.wav](05_results/Proposed/radius_4_2cm/after.wav) |
-| USMA-WPE-BF | [before.wav](05_results/USMA_WPE_BF/radius_4_2cm/before.wav) | [after.wav](05_results/USMA_WPE_BF/radius_4_2cm/after.wav) |
+### Listen (R = 4.2 cm)
 
-> Images appear after you copy the media files into `docs/figures/` (see the copy guide). Until then, GitHub may show broken-image icons.
+**Proposed** — [before.wav](05_results/Proposed/radius_4_2cm/before.wav) · [after.wav](05_results/Proposed/radius_4_2cm/after.wav)
+
+| Before | After |
+|---|---|
+| <audio controls preload="none" src="05_results/Proposed/radius_4_2cm/before.wav"></audio> | <audio controls preload="none" src="05_results/Proposed/radius_4_2cm/after.wav"></audio> |
+
+**USMA-WPE-BF** — [before.wav](05_results/USMA_WPE_BF/radius_4_2cm/before.wav) · [after.wav](05_results/USMA_WPE_BF/radius_4_2cm/after.wav)
+
+| Before | After |
+|---|---|
+| <audio controls preload="none" src="05_results/USMA_WPE_BF/radius_4_2cm/before.wav"></audio> | <audio controls preload="none" src="05_results/USMA_WPE_BF/radius_4_2cm/after.wav"></audio> |
+
+> More methods and both radii: **[docs/demo.md § Listening examples](docs/demo.md#6-listening-examples)**.  
+> Images appear after media files are in `docs/figures/` (see the copy guide).
 
 ---
 
@@ -170,7 +180,8 @@ Each metric folder has its own README with dependencies and I/O conventions.
 
 ### 6. Listen to example outputs
 
-Qualitative before/after examples (not a substitute for the paper tables):
+Inline players are in the [Visual demo](#visual-demo) section and in **[docs/demo.md](docs/demo.md#6-listening-examples)**.  
+Raw files:
 
 ```text
 05_results/<METHOD>/radius_4_2cm/{before,after}.wav
