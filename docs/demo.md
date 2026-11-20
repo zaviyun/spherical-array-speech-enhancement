@@ -121,11 +121,7 @@ Beam patterns for selected paper conditions (**R = 4.2 cm**, **0 → 4000 Hz**).
 
 ## 6. Listening examples
 
-GitHub Markdown strips `<audio>` tags, so players are on a real HTML page:
-
-**[▶️ Open audio players](https://zaviyun.github.io/spherical-array-speech-enhancement/docs/listen.html)** · [`listen.html`](listen.html)
-
-Qualitative `before` / `after` download links (not a substitute for the paper tables):
+Qualitative `before` / `after` examples (not a substitute for the paper tables):
 
 | Method | R = 4.2 cm | R = 10 cm |
 |---|---|---|
@@ -135,8 +131,6 @@ Qualitative `before` / `after` download links (not a substitute for the paper ta
 | USMA-DS | [before](../05_results/USMA_DS/radius_4_2cm/before.wav) · [after](../05_results/USMA_DS/radius_4_2cm/after.wav) | [before](../05_results/USMA_DS/radius_10cm/before.wav) · [after](../05_results/USMA_DS/radius_10cm/after.wav) |
 
 More conditions: [`../05_results/`](../05_results/).
-
-> Enable GitHub Pages (**Settings → Pages → Deploy from `main` / root**) so the online player URL works.
 
 ---
 

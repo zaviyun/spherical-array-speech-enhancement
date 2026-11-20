@@ -54,20 +54,14 @@ A compact showcase of the geometry and beamforming behavior.
 </p>
 <p align="center"><sub>Left: 32 physical microphones (R = 4.2 cm). Right: Proposed method beam pattern (0–4000 Hz).</sub></p>
 
-### Listen
+### Listen (R = 4.2 cm)
 
-GitHub README **cannot** render `<audio>` players (they are stripped).  
-Use the dedicated listening page instead:
-
-**[▶️ Open audio players](https://zaviyun.github.io/spherical-array-speech-enhancement/docs/listen.html)** · also [`docs/listen.html`](docs/listen.html) (local / Pages)
-
-| Method (R = 4.2 cm) | Before | After |
+| Method | Before | After |
 |---|---|---|
 | **Proposed** | [before.wav](05_results/Proposed/radius_4_2cm/before.wav) | [after.wav](05_results/Proposed/radius_4_2cm/after.wav) |
 | USMA-WPE-BF | [before.wav](05_results/USMA_WPE_BF/radius_4_2cm/before.wav) | [after.wav](05_results/USMA_WPE_BF/radius_4_2cm/after.wav) |
 
-> Full gallery: **[docs/demo.md](docs/demo.md)** · Copy guide: **[docs/COPY_GUIDE.md](docs/COPY_GUIDE.md)**  
-> To activate the online player URL: GitHub → **Settings → Pages** → Deploy from branch **`main`** / folder **`/` (root)**.
+> Full gallery: **[docs/demo.md](docs/demo.md)** · Copy guide: **[docs/COPY_GUIDE.md](docs/COPY_GUIDE.md)**
 
 ---
 
@@ -177,10 +171,6 @@ T400_SuperDirective_On_rings_withWPE_R_4v2_Upsampling
 Each metric folder has its own README with dependencies and I/O conventions.
 
 ### 6. Listen to example outputs
-
-Use the HTML player page: **[docs/listen.html](docs/listen.html)**  
-(online after Pages is enabled: [github.io …/docs/listen.html](https://zaviyun.github.io/spherical-array-speech-enhancement/docs/listen.html)).  
-Raw files:
 
 ```text
 05_results/<METHOD>/radius_4_2cm/{before,after}.wav
