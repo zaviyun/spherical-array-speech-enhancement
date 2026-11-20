@@ -161,21 +161,21 @@ Illustrative experiment (not a manuscript table): noisy reverberant **single-mic
   <img src="figures/06_outlook/post_se_cascade_concept.png" alt="Post-SE cascade concept" width="720">
 </p>
 
-Folder: [`../audio/outlook_post_se_R4v2/`](../audio/outlook_post_se_R4v2/) · ASR summary: [`asr_wer_summary.md`](../audio/outlook_post_se_R4v2/asr_wer_summary.md)
+Folder: [`audio/outlook_post_se_R4v2/`](audio/outlook_post_se_R4v2/) · ASR summary: [`asr_wer_summary.md`](audio/outlook_post_se_R4v2/asr_wer_summary.md)
 
 | Stage / condition | Audio | ASR text |
 |---|---|---|
-| Clean reference | [wav](../audio/outlook_post_se_R4v2/01_clean_reference.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/reference.txt) |
-| Noisy reverberant mic | [wav](../audio/outlook_post_se_R4v2/02_noisy_reverb_mic.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/noisy_reverb_mic.txt) |
-| Proposed output | [wav](../audio/outlook_post_se_R4v2/03_proposed_output.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/proposed_output.txt) |
-| ESPnet on noisy | [wav](../audio/outlook_post_se_R4v2/se_ESPnet_on_noisy.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/se_ESPnet_on_noisy.txt) |
-| ESPnet on proposed | [wav](../audio/outlook_post_se_R4v2/se_ESPnet_on_proposed.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/se_ESPnet_on_proposed.txt) |
-| MP-SENet on noisy | [wav](../audio/outlook_post_se_R4v2/se_MP-SENet_on_noisy.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/se_MP-SENet_on_noisy.txt) |
-| MP-SENet on proposed | [wav](../audio/outlook_post_se_R4v2/se_MP-SENet_on_proposed.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/se_MP-SENet_on_proposed.txt) |
-| DB-AIAT on noisy | [wav](../audio/outlook_post_se_R4v2/se_DB-AIAT_on_noisy.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/se_DB-AIAT_on_noisy.txt) |
-| DB-AIAT on proposed | [wav](../audio/outlook_post_se_R4v2/se_DB-AIAT_on_proposed.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/se_DB-AIAT_on_proposed.txt) |
-| DB-CPT on noisy | [wav](../audio/outlook_post_se_R4v2/se_DB-CPT_on_noisy.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/se_DB-CPT_on_noisy.txt) |
-| DB-CPT on proposed | [wav](../audio/outlook_post_se_R4v2/se_DB-CPT_on_proposed.wav) | [txt](../audio/outlook_post_se_R4v2/transcripts/se_DB-CPT_on_proposed.txt) |
+| Clean reference | [wav](audio/outlook_post_se_R4v2/01_clean_reference.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/reference.txt) |
+| Noisy reverberant mic | [wav](audio/outlook_post_se_R4v2/02_noisy_reverb_mic.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/noisy_reverb_mic.txt) |
+| Proposed output | [wav](audio/outlook_post_se_R4v2/03_proposed_output.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/proposed_output.txt) |
+| ESPnet on noisy | [wav](audio/outlook_post_se_R4v2/se_ESPnet_on_noisy.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/se_ESPnet_on_noisy.txt) |
+| ESPnet on proposed | [wav](audio/outlook_post_se_R4v2/se_ESPnet_on_proposed.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/se_ESPnet_on_proposed.txt) |
+| MP-SENet on noisy | [wav](audio/outlook_post_se_R4v2/se_MP-SENet_on_noisy.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/se_MP-SENet_on_noisy.txt) |
+| MP-SENet on proposed | [wav](audio/outlook_post_se_R4v2/se_MP-SENet_on_proposed.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/se_MP-SENet_on_proposed.txt) |
+| DB-AIAT on noisy | [wav](audio/outlook_post_se_R4v2/se_DB-AIAT_on_noisy.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/se_DB-AIAT_on_noisy.txt) |
+| DB-AIAT on proposed | [wav](audio/outlook_post_se_R4v2/se_DB-AIAT_on_proposed.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/se_DB-AIAT_on_proposed.txt) |
+| DB-CPT on noisy | [wav](audio/outlook_post_se_R4v2/se_DB-CPT_on_noisy.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/se_DB-CPT_on_noisy.txt) |
+| DB-CPT on proposed | [wav](audio/outlook_post_se_R4v2/se_DB-CPT_on_proposed.wav) | [txt](audio/outlook_post_se_R4v2/transcripts/se_DB-CPT_on_proposed.txt) |
 
 ### Proposed → zero-shot TTS / voice cloning (conceptual)
 
