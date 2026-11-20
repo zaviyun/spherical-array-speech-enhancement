@@ -3,7 +3,6 @@
 Interactive overview of the geometry, beam patterns, listening examples, and outlook visuals for this project.
 
 > Media files live under [`figures/`](figures/).  
-> Exact copy instructions: [`COPY_GUIDE.md`](COPY_GUIDE.md).  
 > Paper ↔ script mapping: [`../PAPER_CODE_MAP.md`](../PAPER_CODE_MAP.md).
 
 ---
@@ -162,7 +161,7 @@ Illustrative experiment (not a manuscript table): noisy reverberant **single-mic
   <img src="figures/06_outlook/post_se_cascade_concept.png" alt="Post-SE cascade concept" width="720">
 </p>
 
-Folder: [`../audio/outlook_post_se_R4v2/`](../audio/outlook_post_se_R4v2/) · WER table template: [`asr_wer_summary.md`](../audio/outlook_post_se_R4v2/asr_wer_summary.md)
+Folder: [`../audio/outlook_post_se_R4v2/`](../audio/outlook_post_se_R4v2/) · ASR summary: [`asr_wer_summary.md`](../audio/outlook_post_se_R4v2/asr_wer_summary.md)
 
 | Stage / condition | Audio | ASR text |
 |---|---|---|

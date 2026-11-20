@@ -39,8 +39,7 @@ flowchart LR
 ## Visual demo
 
 A compact showcase of the geometry and beamforming behavior.  
-**Full gallery** (all GIFs, method comparisons, outlook, audio links): **[docs/demo.md](docs/demo.md)**  
-**Where to drop media files:** **[docs/COPY_GUIDE.md](docs/COPY_GUIDE.md)**
+**Full gallery** (figures, GIFs, outlook, audio links): **[docs/demo.md](docs/demo.md)**
 
 <p align="center">
   <img src="docs/figures/01_scenario/scenario_room_array_source.png" alt="Experimental scenario" width="720">
@@ -61,7 +60,7 @@ A compact showcase of the geometry and beamforming behavior.
 | **Proposed** | [before.wav](05_results/Proposed/radius_4_2cm/before.wav) | [after.wav](05_results/Proposed/radius_4_2cm/after.wav) |
 | USMA-WPE-BF | [before.wav](05_results/USMA_WPE_BF/radius_4_2cm/before.wav) | [after.wav](05_results/USMA_WPE_BF/radius_4_2cm/after.wav) |
 
-> Full gallery: **[docs/demo.md](docs/demo.md)** · Copy guide: **[docs/COPY_GUIDE.md](docs/COPY_GUIDE.md)**
+> Full gallery: **[docs/demo.md](docs/demo.md)**
 
 ---
 
@@ -69,10 +68,10 @@ A compact showcase of the geometry and beamforming behavior.
 
 ```text
 spherical-array-speech-enhancement/
-├── docs/                   # Visual gallery + media copy guide
+├── docs/                   # Visual gallery + outlook demos
 │   ├── demo.md             # Full figure / GIF / audio gallery
-│   ├── COPY_GUIDE.md       # Exact filenames for each asset
-│   └── figures/            # Scenario, geometry, beam-pattern GIFs
+│   ├── figures/            # Scenario, geometry, beam-pattern GIFs
+│   └── audio/              # Outlook listening / ASR examples
 ├── 00_simulation/          # SMIR RIR generation + dataset construction
 │   ├── smir_generator/     # Habets SMIR + project configuration
 │   ├── dataset_generation/ # RIR crop, convolution, AWGN @ 10 dB SNR

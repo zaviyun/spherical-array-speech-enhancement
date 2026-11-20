@@ -145,27 +145,24 @@ Lab-era batch runners (optional): `03_metrics/speech_quality/_lab_batch_runners/
 
 ## 7. Roadmap
 
-The items below are planned improvements for this companion repository. Checked items are done; unchecked items are still in progress.
+Planned public improvements for this companion repository:
 
 - [x] Organize methods by paper name and array radius
 - [x] Provide qualitative `before` / `after` audio samples under `05_results/`
 - [x] Document the paper ↔ script mapping for Tables 2–3
-- [x] Rename main 10 cm scripts to match runtime ring counts (`17rings`, `7rings`)
-- [x] Move the denser `15and16` experiment into `NEW_USMA_BF/radius_4_2cm/`
-- [ ] Optionally rename `USMA_WPE_BF/radius_4_2cm/T400_SuperDirective_4and3_rings_withWPE.m` if you want the filename to say `7rings` explicitly
-- [ ] Make Primary experiment scripts path-portable (replace absolute `D:/ARTICLE/...` paths)
-- [ ] Move remaining non-table **Alternate** scripts into `_archive/` so only Primary drivers remain prominent
+- [x] Visual demo gallery under `docs/`
+- [ ] Make Primary experiment scripts path-portable (replace absolute lab `path` / `saveDir` entries)
+- [ ] Archive non-table alternate scripts so only Primary drivers remain prominent
 - [ ] Add a minimal config / relative-path convention for dataset and output folders
-- [ ] Rebuild SMIR MEX binaries from the included `.cpp` sources on a clean machine and document the tested MATLAB version
+- [ ] Rebuild SMIR MEX binaries from the included `.cpp` sources and document the tested MATLAB version
 - [ ] Add a short end-to-end demo recipe (one utterance, one radius, Proposed method)
-- [ ] Freeze the Data Availability URL / DOI text after paper publication
 
 ---
 
-## 8. Data Availability blurb (draft)
+## 8. Data Availability
 
-You may adapt the following later for the manuscript:
+Companion scripts and example audio for this work:
 
-> The MATLAB scripts and example audio samples accompanying this article are available at:  
-> https://github.com/zaviyun/spherical-array-speech-enhancement  
-> The mapping between each experimental condition in Tables 2–3 and the corresponding scripts is provided in `PAPER_CODE_MAP.md`. Full TIMIT-based evaluation corpora are not redistributed due to licensing and size constraints; generation scripts are included under `00_simulation/`.
+https://github.com/zaviyun/spherical-array-speech-enhancement
+
+The mapping between experimental conditions in Tables 2–3 and the corresponding scripts is provided in `PAPER_CODE_MAP.md`. Full TIMIT-based evaluation corpora are not redistributed due to licensing and size constraints; generation scripts are included under `00_simulation/`.

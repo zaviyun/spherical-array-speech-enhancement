@@ -40,3 +40,7 @@ Desktop.ini
 !05_results/**/*.wav
 !00_simulation/rir_samples/**/*.wav
 !00_simulation/rir_samples/**/*.mat
+
+# Author-only notes (not for public GitHub)
+docs/COPY_GUIDE.md
+docs/audio/**/transcripts/README.md
