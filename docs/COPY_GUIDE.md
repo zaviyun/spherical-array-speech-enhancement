@@ -66,34 +66,76 @@
 |---|---|
 | جداسازی منابع با حلقه‌های موازی | `docs/figures/06_outlook/source_separation_parallel_rings.gif` |
 | ردیابی/مکان‌یابی پهپاد بدون چرخش رادار | `docs/figures/06_outlook/drone_tracking_outlook.gif` |
+| شماتیک پاورپوینت: Proposed → single-channel SE (R=4.2) | `docs/figures/06_outlook/post_se_cascade_concept.png` |
+| ویدیو/گیف: Proposed → zero-shot TTS / voice cloning | `docs/figures/06_outlook/post_tts_voice_cloning_concept.gif` |
 
-> این بخش را در متن‌ها به‌عنوان **potential future applications** مشخص کرده‌ایم، نه نتیجهٔ آزمایش مقاله.
+برای مورد آخر: اگر کلیپ کوتاه است (**ترجیحاً GIF** تا مثل بقیه در گالری دیده شود). اگر طولانی/سنگین است همان `.mp4` بگذارید با همین نام پایه (`post_tts_voice_cloning_concept.mp4`) و بگویید تا لینک را در `demo.md` عوض کنم.
+
+> این بخش **potential future applications** است، نه نتیجهٔ جدول‌های مقاله.
+
+### 6b) صوت + ASR برای post-SE (فقط R = 4.2 cm)
+
+روش‌های تک‌کاناله تست‌شده: **ESPnet**, **MP-SENet**, **DB-AIAT**, **DB-CPT**  
+(یک‌بار روی mic نویزی‌+واخنش، یک‌بار روی خروجی Proposed؛ WER با WeNet 2.0)
+
+#### صوت‌ها → `docs/audio/outlook_post_se_R4v2/`
+
+| فایل | معنی |
+|---|---|
+| `01_clean_reference.wav` | سیگنال تمیز |
+| `02_noisy_reverb_mic.wav` | یک میکروفون فیزیکی، نویزی+واخنش |
+| `03_proposed_output.wav` | خروجی روش پیشنهادی |
+| `se_ESPnet_on_noisy.wav` | ESPnet روی noisy |
+| `se_ESPnet_on_proposed.wav` | ESPnet روی Proposed |
+| `se_MP-SENet_on_noisy.wav` | MP-SENet روی noisy |
+| `se_MP-SENet_on_proposed.wav` | MP-SENet روی Proposed |
+| `se_DB-AIAT_on_noisy.wav` | DB-AIAT روی noisy |
+| `se_DB-AIAT_on_proposed.wav` | DB-AIAT روی Proposed |
+| `se_DB-CPT_on_noisy.wav` | DB-CPT روی noisy |
+| `se_DB-CPT_on_proposed.wav` | DB-CPT روی Proposed |
+
+#### متن ASR + WER
+
+| فایل | معنی |
+|---|---|
+| `docs/audio/outlook_post_se_R4v2/asr_wer_summary.md` | جدول WER را اینجا پر کنید |
+| `docs/audio/outlook_post_se_R4v2/transcripts/reference.txt` | متن مرجع (ground truth) |
+| `.../transcripts/noisy_reverb_mic.txt` | فرضیه‌ی ASR برای noisy |
+| `.../transcripts/proposed_output.txt` | فرضیه برای Proposed |
+| `.../transcripts/se_ESPnet_on_noisy.txt` | و به همین ترتیب برای بقیه |
+| `.../transcripts/se_ESPnet_on_proposed.txt` | |
+| `.../transcripts/se_MP-SENet_on_noisy.txt` | |
+| `.../transcripts/se_MP-SENet_on_proposed.txt` | |
+| `.../transcripts/se_DB-AIAT_on_noisy.txt` | |
+| `.../transcripts/se_DB-AIAT_on_proposed.txt` | |
+| `.../transcripts/se_DB-CPT_on_noisy.txt` | |
+| `.../transcripts/se_DB-CPT_on_proposed.txt` | |
+
+هر `.txt` فقط همان متن تشخیص‌داده‌شدهٔ WeNet باشد (یک خط یا چند خط ساده).
 
 ---
 
-## 7) صوت‌ها
+## 7) صوت‌های اصلی مقاله (جداول)
 
-نیازی به کپی دوباره نیست. از مسیرهای موجود استفاده می‌شود:
+از همین مسیرها استفاده می‌شود (کپی اضافه لازم نیست):
 
 ```text
 05_results/<METHOD>/radius_4_2cm/{before,after}.wav
 05_results/<METHOD>/radius_10cm/{before,after}.wav
 ```
 
-اگر نمونهٔ خاص سناریو دارید، بگذارید در:
-
-```text
-docs/audio/scenario_demo/
-```
-
-(در صورت نیاز آن پوشه را هم می‌سازیم.)
-
 ---
 
 ## بعد از کپی
 
 1. در GitHub Desktop فایل‌های جدید را می‌بینید  
-2. Commit با پیام مثلاً: `Add demo figures and gallery media`  
+2. Commit (نمونه پیام‌ها پایین)  
 3. Push origin  
 
-اگر نام فایلی دقیقاً جور نبود، همان را بگویید تا مسیرها را برایتان اصلاح کنم.
+### پیام commit پیشنهادی (Outlook جدید)
+
+```text
+Add outlook post-SE cascade demos with ESPnet/MP-SENet/DB-AIAT/DB-CPT and ASR texts
+```
+
+اگر نام فایلی دقیقاً جور نبود، بگویید تا مسیرها را هماهنگ کنم.
